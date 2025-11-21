@@ -441,6 +441,13 @@ export const originSources = {
         interval: Time.Common,
         home: "https://news.qq.com/tag/aEWqxLtdgmQ=",
       },
+   "东方财富": {
+  name: "东方财富",
+  color: "blue",
+  home: "https://stock.eastmoney.com/",
+  column: "焦点", // Pick an appropriate column
+  type: "hottest" // Or "realtime" if it's a news feed
+};   
     },
   },
 } as const satisfies Record<string, OriginSource>
